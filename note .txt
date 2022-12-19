@@ -1,0 +1,5 @@
+php artisan tinker
+ $post = new Post;
+ $post->title = 'my first post'
+$post->content = 'my first post conten lorem ipusm sit dolar init minasr'
+$post->save();

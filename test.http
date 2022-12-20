@@ -5,19 +5,20 @@ POST http://127.0.0.1:8000/api/posts HTTP/1.1
 content-type: application/json
 
 {
-    "title": "My Third Model",
+    "title": "My 10th Model",
     "content": "This my third title which i hate so much"
 }
 
 ###
-PUT http://127.0.0.1:8000/api/posts/3 HTTP/1.1
+
+PUT http://127.0.0.1:8000/api/posts/update/4 HTTP/1.1
 content-type: application/json
 
 {
-    "title": "My Third Model up",
+    "title": "My 4th Model yup",
     "content": "This my u[p] title which i hate so much"
-}
+} 
 
 ###
-DELETE  http://127.0.0.1:8000/api/posts/6 HTTP/1.1
+DELETE  http://127.0.0.1:8000/api/posts/delete/10 HTTP/1.1
  
